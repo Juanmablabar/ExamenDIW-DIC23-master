@@ -1,0 +1,99 @@
+@use "vars";
+@use "menu";
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Continuar desde aqui... */
+body {
+    text-align: center;
+    display: flex;
+}
+
+
+div#tabla {
+    background-color: vars.$azul2;
+    width: 100%;
+    padding: 10rem;
+
+    h1 {
+        color: vars.$amarillo;
+        margin-bottom: 5rem;
+        display: block;
+    }
+
+    table {
+        text-align: center;
+        border: solid vars.$amarillo;
+        border-collapse: collapse;
+        display: inline-block;
+
+
+        tr th {
+            background-color: vars.$amarillo;
+            border: solid vars.$amarillo;
+            border-collapse: collapse;
+            padding: 1rem;
+        }
+
+        tr td {
+            padding: 1rem;
+            border: solid vars.$amarillo;
+            border-collapse: collapse;
+            color: vars.$amarillo;
+        }
+
+        tr:hover td {
+            background-color: vars.$amarillo;
+            color: vars.$azul;
+        }
+
+        td.tipo {
+            color: vars.$azul;
+            background-color: vars.$amarillo;
+            border-radius: 50%;
+        }
+
+        button {
+            background-color: vars.$amarillo;
+        }
+
+    }
+    p {
+        color: vars.$amarillo;
+    }
+}
+
+dialog#borrarEntrada{
+    color: vars.$azul;
+    h1{
+        margin: 2rem;
+    }
+    p{
+        margin: 1rem;
+    }
+    input:hover{
+        background-color: vars.$amarillo;
+    }
+}
+
+dialog#nuevaEntrada{
+    color: vars.$azul;
+    h1{
+        margin: 2rem;
+    }
+    div{
+        margin: 1rem;
+    }
+    div:hover{
+        background-color: vars.$amarillo;
+    }
+    input:hover{
+        background-color: vars.$amarillo;
+    } 
+    
+}

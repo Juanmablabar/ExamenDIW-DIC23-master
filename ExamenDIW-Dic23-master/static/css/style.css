@@ -1,0 +1,106 @@
+div#menu {
+  width: 13rem;
+  background-color: #002858;
+}
+div#menu ul {
+  padding: 0%;
+  width: 13rem;
+}
+div#menu li {
+  list-style: none;
+  padding: 1.5rem;
+  text-align: center;
+}
+div#menu li a {
+  text-decoration: none;
+  color: white;
+}
+div#menu li:hover {
+  background-color: #ffc836;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Continuar desde aqui... */
+body {
+  text-align: center;
+  display: flex;
+}
+
+div#tabla {
+  background-color: rgba(0, 40, 88, 0.6666666667);
+  width: 100%;
+  padding: 10rem;
+}
+div#tabla h1 {
+  color: #ffc836;
+  margin-bottom: 5rem;
+  display: block;
+}
+div#tabla table {
+  text-align: center;
+  border: solid #ffc836;
+  border-collapse: collapse;
+  display: inline-block;
+}
+div#tabla table tr th {
+  background-color: #ffc836;
+  border: solid #ffc836;
+  border-collapse: collapse;
+  padding: 1rem;
+}
+div#tabla table tr td {
+  padding: 1rem;
+  border: solid #ffc836;
+  border-collapse: collapse;
+  color: #ffc836;
+}
+div#tabla table tr:hover td {
+  background-color: #ffc836;
+  color: #002858;
+}
+div#tabla table td.tipo {
+  color: #002858;
+  background-color: #ffc836;
+  border-radius: 50%;
+}
+div#tabla table button {
+  background-color: #ffc836;
+}
+div#tabla p {
+  color: #ffc836;
+}
+
+dialog#borrarEntrada {
+  color: #002858;
+}
+dialog#borrarEntrada h1 {
+  margin: 2rem;
+}
+dialog#borrarEntrada p {
+  margin: 1rem;
+}
+dialog#borrarEntrada input:hover {
+  background-color: #ffc836;
+}
+
+dialog#nuevaEntrada {
+  color: #002858;
+}
+dialog#nuevaEntrada h1 {
+  margin: 2rem;
+}
+dialog#nuevaEntrada div {
+  margin: 1rem;
+}
+dialog#nuevaEntrada div:hover {
+  background-color: #ffc836;
+}
+dialog#nuevaEntrada input:hover {
+  background-color: #ffc836;
+}/*# sourceMappingURL=style.css.map */
